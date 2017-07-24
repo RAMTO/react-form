@@ -1,0 +1,27 @@
+.flex-grid {
+    
+    @media (min-width: $breakpoint_layout) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.flex-col-small {
+    flex: 0 1 28%;
+}
+
+.flex-col-large {
+    flex: 0 1 68%;
+}
+
+.flex-col-half {
+    flex: 0 1 48%;
+}
+
+.is-right-aligned {
+    @media (min-width: $breakpoint_layout) {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}

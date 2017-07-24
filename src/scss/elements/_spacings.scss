@@ -1,0 +1,32 @@
+.is-padded-top {
+    padding-top: 16px;
+
+    @media (min-width: $breakpoint_layout) {
+        padding-top: 40px;
+    } 
+}
+
+.is-marged-top-device {
+	margin-top: 24px;
+
+	@media (min-width: $breakpoint_layout) {
+		margin-top: 0;
+	}
+}
+
+.is-marged-bottom-device {
+	margin-bottom: 6px;
+
+	@media (min-width: $breakpoint_layout) {
+		margin-bottom: 0;
+	}
+}
+
+.with-mb-18 {
+    margin-bottom: 18px;
+}
+
+.with-mb-24 {
+	margin-bottom: 24px;
+}
+

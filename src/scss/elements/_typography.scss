@@ -1,0 +1,56 @@
+.text-mega {
+    color: $color-dark;
+    font-size: $font-size-mega-device;
+    line-height: 1.4;
+    
+    @media (min-width: $breakpoint_typography) {
+        font-size: $font-size-mega;
+    }  
+}
+
+.text-header {
+    color: $color-primary;
+    font-size: $font-size-header-device;
+    line-height: 1.4;
+    
+    @media (min-width: $breakpoint_typography) {
+        font-size: $font-size-header;
+    }   
+}
+
+.text-body {
+    color: $color-dark;
+    font-size: $font-size-small;
+    line-height: 1.4;
+
+    &.is-bold,
+    .is-bold {
+        font-weight: 600;
+    }
+
+    &.is-label {
+        font-size: $font-size-medium;
+        font-weight: 600;
+        display: block;
+    }
+
+    &.is-secondary {
+        color: $color-secondary;
+    }
+}
+
+.text-link {
+    color: $color-secondary;
+
+    &.is-white {
+        color: $color-white;
+        font-size: $font-size-large;
+        font-weight: 600;
+    }
+
+    @media (min-width: $breakpoint_typography) {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
